@@ -32,7 +32,7 @@ http://www.springframework.org/schema/jee/spring-jee-4.0.xsd">
 		<!-- This section will provide package and class hibernate need to mapping 
 			=]] -->
 		<!-- Auto mapping entity into database :"> | It's very simple - But nobody know it -->
-		<property name="packagesToScan" value="com.myapp.domain"></property>
+		<property name="packagesToScan" value="com.mhdanh.domain"></property>
 		<property name="hibernateProperties">
 			<props>
 				<prop key="hibernate.dialect">${hibernate.dialect}</prop>
